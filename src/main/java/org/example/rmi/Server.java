@@ -3,7 +3,6 @@ package org.example.rmi;
 import org.example.rmi.sistema.Estoque;
 
 import java.rmi.Naming;
-import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 
 public class Server {
