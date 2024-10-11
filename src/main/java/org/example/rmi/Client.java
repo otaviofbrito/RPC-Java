@@ -30,7 +30,7 @@ public class Client {
                         String nome = scanner.next();
                         int quantidade = scanner.nextInt();
                         double preco = scanner.nextDouble();
-                        estoque.addProduto(id, nome, quantidade, preco);
+                        System.out.println(estoque.addProduto(id, nome, quantidade, preco));
                         break;
                     case 2:
                         System.out.println("Produtos no estoque:");
@@ -39,7 +39,7 @@ public class Client {
                     case 3:
                         System.out.println("Digite o ID do produto para remover:");
                         int removeId = scanner.nextInt();
-                        estoque.removeProduto(removeId);
+                        System.out.println(estoque.removeProduto(removeId));
                         break;
                     case 4:
                         System.out.println("Digite o intervalo de preços (min e max):");
